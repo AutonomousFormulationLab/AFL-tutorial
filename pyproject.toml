@@ -24,6 +24,8 @@ dependencies = [
     "tqdm>=4.65.0",
     "sasmodels>=1.0.0",
     "shapely>=2.0.0",
+    "matplotlib>=3.7.0",
+    "afl-agent @ git+https://github.com/usnistgov/AFL-agent.git",
 ]
 
 [tool.setuptools]

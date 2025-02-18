@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "afl_agent_tutorial"
+version = "0.1.0"
+description = "Active Learning Agents for Soft Material Phase Mapping Tutorial"
+authors = [
+    {name = "Tyler Martin"},
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.11"
+keywords = ["active learning", "materials science", "phase mapping"]
+
+dependencies = [
+    "numpy>=1.24.0",
+    "xarray>=2023.1.0",
+    "netcdf4>=1.6.0",
+    "pandas>=2.0.0",
+    "plotly>=5.13.0",
+    "scikit-learn>=1.2.0",
+    "tqdm>=4.65.0",
+    "sasmodels>=1.0.0",
+    "shapely>=2.0.0",
+]
+
+[tool.setuptools]
+packages = ["afl_agent_tutorial"]

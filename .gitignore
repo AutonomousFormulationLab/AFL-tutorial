@@ -1,2 +1,10 @@
 *checkpoint*
+*.pyc
+__pycache__/
+*.egg-info/
+*.egg
+venv/
+.venv/
+env/
+.env/
 

@@ -1,9 +1,14 @@
 [build-system]
-requires = ["setuptools", "setuptools-scm"]
+requires = [
+    "setuptools>=61.0.0",
+    "setuptools-scm",
+    "wheel",
+    "numpy==1.24.0",
+]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "AFL-tutorial"
+name = "afl_tutorial"
 version = "0.1.0"
 description = "Active Learning Agents for Soft Material Phase Mapping Tutorial"
 authors = [
@@ -11,22 +16,22 @@ authors = [
 ]
 readme = "README.md"
 license = {file = "LICENSE"}
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 keywords = ["active learning", "materials science", "phase mapping"]
 
 dependencies = [
-    "numpy>=1.24.0",
-    "xarray>=2023.1.0",
-    "netcdf4>=1.6.0",
-    "pandas>=2.0.0",
-    "plotly>=5.13.0",
-    "scikit-learn>=1.2.0",
-    "tqdm>=4.65.0",
-    "sasmodels>=1.0.0",
-    "shapely>=2.0.0",
-    "matplotlib>=3.7.0",
-    "afl-agent @ git+https://github.com/usnistgov/AFL-agent.git",
+    "numpy==1.24.0",
+    "xarray==2023.1.0", 
+    "netcdf4==1.6.0",
+    "pandas==2.0.0",
+    "plotly==5.13.0",
+    "scikit-learn==1.2.0",
+    "tqdm==4.65.0",
+    "sasmodels==1.0.0",
+    "shapely==2.0.0",
+    "matplotlib==3.7.0",
+    #"afl-agent@git+https://github.com/usnistgov/AFL-agent.git",
 ]
 
 [tool.setuptools]
-packages = ["AFL-tutorial"]
+packages = ["AFL"]

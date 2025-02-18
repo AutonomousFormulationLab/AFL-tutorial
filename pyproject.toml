@@ -3,7 +3,7 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "afl_agent_tutorial"
+name = "AFL-tutorial"
 version = "0.1.0"
 description = "Active Learning Agents for Soft Material Phase Mapping Tutorial"
 authors = [
@@ -27,4 +27,4 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["afl_agent_tutorial"]
+packages = ["AFL-tutorial"]

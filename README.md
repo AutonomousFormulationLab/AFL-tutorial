@@ -2,10 +2,10 @@
 
 | Tutorial | Description | Open in Colab |
 |----------|-------------|----------------|
-| 01 - Intro | Introduction to small-angle scattering and the concept of phase mapping | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/afl_agent_tutorial/blob/main/01-concepts.ipynb) |
-| 02 - ML Pipelines | Building decision pipelines using scikit-learn | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/afl_agent_tutorial/blob/main/01-concepts.ipynb) |
-| 03 - AFL Agent | Building decision agents with the afl.double_agent library | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/afl_agent_tutorial/blob/main/03-afl-agent.ipynb) |
-| 04 - Challenges | Exploring challenges in soft material autonomous experimentation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/afl_agent_tutorial/blob/main/02-challenges.ipynb) |
+| 01 - Intro | Introduction to small-angle scattering and the concept of phase mapping | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AFL-tutorial/AFL-tutorial/blob/main/notebooks/01-introduction.ipynb) |
+| 02 - ML Pipelines | Building decision pipelines using scikit-learn | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AFL-tutorial/AFL-tutorial/blob/main/notebooks/02-ml-pipelines.ipynb) |
+| 03 - AFL Agent | Building decision agents with the afl.double_agent library | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AFL-tutorial/AFL-tutorial/blob/main/notebooks/03-afl-agent.ipynb) |
+| 04 - Challenges | Exploring challenges in soft material autonomous experimentation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AFL-tutorial/AFL-tutorial/blob/main/notebooks/04-challenges.ipynb) |
 
 ## Introduction
 

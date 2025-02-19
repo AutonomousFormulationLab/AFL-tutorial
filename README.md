@@ -4,8 +4,10 @@
 |----------|-------------|----------------|
 | 01 - Intro | Introduction to small-angle scattering and the concept of phase mapping | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/01-introduction.ipynb) |
 | 02 - Decision Pipelines | Building decision pipelines using scikit-learn | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/02-sklearn.ipynb) |
-| 03 - AFL Agent | Building decision agents with the afl.double_agent library | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/03-afl-agent.ipynb) |
-| 04 - Challenges | Exploring challenges in soft material autonomous experimentation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/04-challenges.ipynb) |
+| 03 - AFL Agent | Building decision agents with the AFL.double_agent library | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/03-afl-agent.ipynb) |
+| C1 - Challenge 1 | Build an agent that tolerates measurement noise | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/C1-challenge1.ipynb) |
+| C2 - Challenge 2 | Discover the boundaries of multiple phases | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/C2-challenge2.ipynb) |
+| C3 - Challenge 3 | Handle second order (continuous) phase transitions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/C3-challenge3.ipynb) |
 
 ## Introduction
 

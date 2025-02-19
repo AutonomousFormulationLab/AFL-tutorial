@@ -8,8 +8,8 @@ import sasmodels.direct_model
 import xarray as xr
 from shapely.geometry import Point
 
-from src.plot import plot_ternary
-from src.util import ternary_to_xy, xy_to_ternary, trace_boundaries
+from AFL.double_agent_tutorial.core.plot import plot_ternary
+from AFL.double_agent_tutorial.core.util import ternary_to_xy, xy_to_ternary, trace_boundaries
 
 
 class VirtualSAS:

@@ -3,14 +3,15 @@ import pathlib
 import pandas as pd
 import xarray as xr
 
-from src.VirtualInstrument import VirtualSAS
+from AFL.double_agent_tutorial.core.VirtualInstrument import VirtualSAS
+from AFL.double_agent_tutorial import PACKAGE_DIR, DATA_DIR
 
 
 def get_virtual_instrument(
         noise=1e-5,
         hull_tracing_ratio=0.2,
-        boundary_dataset_path="/content/active_learning_tutorial/challenge_datasets/N.nc",
-        reference_data_path="./reference_sans",
+        boundary_dataset_path=str(DATA_DIR / "phase_data/N.nc"),
+        reference_data_path=str(DATA_DIR / "SANS"),
 ):
     boundary_dataset = xr.load_dataset(boundary_dataset_path)
     boundary_dataset.attrs['labels'] = 'labels'

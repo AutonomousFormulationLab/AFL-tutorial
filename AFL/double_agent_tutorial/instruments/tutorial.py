@@ -3,12 +3,13 @@ import pathlib
 import pandas as pd
 import xarray as xr
 
-from src.VirtualInstrument import VirtualSAS
+from AFL.double_agent_tutorial.core.VirtualInstrument import VirtualSAS
+from AFL.double_agent_tutorial import PACKAGE_DIR, DATA_DIR
 
 
 def get_virtual_instrument(noise: float = 1e-1, hull_tracing_ratio: float = 0.25,
-        boundary_dataset_path: str = "/content/active_learning_tutorial/challenge_datasets/tutorial.nc",
-        reference_data_path: str = "./reference_sans", ):
+        boundary_dataset_path: str = str(DATA_DIR / "phase_data/tutorial.nc"),
+        reference_data_path: str = str(DATA_DIR / "SANS"), ) -> VirtualSAS:
     """ Generate Virtual Instrument
 
     Parameters

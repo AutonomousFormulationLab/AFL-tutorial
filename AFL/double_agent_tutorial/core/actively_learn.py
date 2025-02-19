@@ -11,9 +11,10 @@ import xarray as xr
 from IPython import display
 from plotly.subplots import make_subplots
 
-from src.VirtualInstrument import VirtualSAS
-from src.plot import (plot_ternary, make_boundary_plots, make_score_plots, )
-from src.util import (composition_grid_ternary, calculate_perimeter_score_v2, trace_boundaries)
+from AFL.double_agent_tutorial.core.VirtualInstrument import VirtualSAS
+from AFL.double_agent_tutorial.core.util import composition_grid_ternary
+from AFL.double_agent_tutorial.core.plot import plot_ternary, make_boundary_plots, make_score_plots
+from AFL.double_agent_tutorial.core.util import calculate_perimeter_score_v2, trace_boundaries
 
 
 def actively_learn(input_dataset: xr.Dataset, niter: int, num_phases: int, label: Callable, extrapolate: Callable,

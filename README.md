@@ -1,10 +1,10 @@
-# AFL Agent Tutorial
+# AFL Tutorials
 
 | Tutorial | Description | Open in Colab |
 |----------|-------------|----------------|
 | 01 - Intro | Introduction to small-angle scattering and the concept of phase mapping | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/01-introduction.ipynb) |
-| 02 - Agent Pipelines | Building decision pipelines using scikit-learn | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/02-sklearn.ipynb) |
-| 03 - AFL Agent | Building decision agents with the AFL.double_agent library | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/03-afl-agent.ipynb) |
+| 02 - Pipelines | Building decision pipelines (AI agents) using scikit-learn | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/02-sklearn.ipynb) |
+| 03 - AFL Agent | Building decision agents with the AFL.double_agent library (under development) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/03-afl-agent.ipynb) |
 | C1 - Challenge 1 | Build an agent that tolerates measurement noise | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/C1-challenge1.ipynb) |
 | C2 - Challenge 2 | Discover the boundaries of multiple phases | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/C2-challenge2.ipynb) |
 | C3 - Challenge 3 | Handle second order (continuous) phase transitions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/C3-challenge3.ipynb) |
@@ -12,7 +12,9 @@
 
 ## Introduction
 
-This goal of these tutorials is to convey a methodlogy for using machine learning to interpret experimental data for the purpose of microstructural phase identification and structure mapping. The tutorial is highly interactive, making it suitable for both self-paced learning and guided tutorial presentation settings.
+The goal of these tutorials is to introduce the software tools developed to run the Autonomous Formulation Lab. We introduce our AI agent software (AFL.double_agent) and show how it can be used to build decision pipelines. The notebooks leverage widely used open source libraries (scikit-learn) and our new library for building decision pipelines (AFL.double_agent). We are in the process of developing tutorials for our orchestration software (AFL.automation) so check back soon
+
+These tutorials are highly interactive, making it suitable for both self-paced learning and guided tutorial presentation settings.
 
 ## Background
 
@@ -22,22 +24,15 @@ The Autonomous Formulation Lab (AFL) is a National Institute of Standards and Te
 
 No installation required! All tutorials are designed to run directly in Google Colab.
 
-## Important Note
-
 ⚠️ **Google Colab Kernel Warning**: The Colab kernel will automatically disconnect after periods of inactivity. If this happens, you'll need to rerun the "Setup" section at the top of the notebook to continue your work.
 
 
-## Previous Tutorials
+## Previous Guided Tutorials
 
 | Date | Event | Location/Event |
 |------|--------|-----------|
-| April 2024 | Spring MRS 2024 Tutorial | Seattle, WA |
 | February 2025 | Virtual Tutorial Lecture @ UIC| Chicago, IL |
-
-## Contributing
-
-We welcome contributions and feedback! Please submit any issues or suggestions using the Issues functionality on Github. 
-
+| April 2024 | Spring MRS 2024 Tutorial | Seattle, WA |
 
 ## NIST Disclaimer
 

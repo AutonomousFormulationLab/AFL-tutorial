@@ -1,14 +1,14 @@
 # AFL Tutorials
 
-| Tutorial | Description | Open in Colab |
-|----------|-------------|----------------|
-| 01-Intro | Introduction to small-angle scattering and the concept of phase mapping | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/01-introduction.ipynb) |
-| 02-Pipelines | Building decision pipelines (AI agents) using scikit-learn | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/02-sklearn.ipynb) |
-| 03-AFL Agent | Building decision agents with the AFL.double_agent library (under development) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/03-afl-agent.ipynb) |
-| C1-Challenge 1 | Build an agent that tolerates measurement noise | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/C1-challenge1.ipynb) |
-| C2-Challenge 2 | Discover the boundaries of multiple phases | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/C2-challenge2.ipynb) |
-| C3-Challenge 3 | Handle second order (continuous) phase transitions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/C3-challenge3.ipynb) |
-| CX-Inspiration | Ideas and inspiration for the challenges | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/CX-inspiration.ipynb) |
+| Tutorial | Description | Instructor Version | Student Version |
+|----------|-------------|-------------------|-----------------|
+| 01-Intro | Introduction to small-angle scattering and the concept of phase mapping | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/01-introduction-instructor.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/01-introduction-student.ipynb) |
+| 02-Pipelines | Building decision pipelines (AI agents) using scikit-learn | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/02-sklearn-instructor.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/02-sklearn-student.ipynb) |
+| ~~03-AFL Agent~~ | ~~Building decision agents with the AFL.double_agent library~~ | 🚧 Under Development | 🚧 Under Development |
+| C1-Challenge 1 | Build an agent that tolerates measurement noise | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/C1-challenge1.ipynb) |
+| C2-Challenge 2 | Discover the boundaries of multiple phases | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/C2-challenge2.ipynb) |
+| C3-Challenge 3 | Handle second order (continuous) phase transitions | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/C3-challenge3.ipynb) |
+| CX-Inspiration | Ideas and inspiration for the challenges | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martintb/AFL-tutorial/blob/main/notebooks/CX-inspiration.ipynb) |
 
 ## Introduction
 
@@ -20,12 +20,20 @@ These tutorials are highly interactive, making it suitable for both self-paced l
 
 The Autonomous Formulation Lab (AFL) is a National Institute of Standards and Technology (NIST) program that seeks to accelerate the discovery and optimization of soft materials through the development and application of autonomous techniques to high-value measurements. Specifically, we design robotic platforms that autonomously mix, synthesize and evaluate soft materials and we study them using small-angle scattering (SANS) and small-angle X-ray scattering (SAXS) and other techniques.
 
-## Installation
+## Instructions
 
 No installation required! All tutorials are designed to run directly in Google Colab.
 
 ⚠️ **Google Colab Kernel Warning**: The Colab kernel will automatically disconnect after periods of inactivity. If this happens, you'll need to rerun the "Setup" section at the top of the notebook to continue your work.
 
+### Notebook Versions
+- **Student Notebooks**: These notebooks are designed for guided tutorial presentations. They have sections of the code removed that are meant to be filled in by the active participants.
+- **Instructor Notebooks**: These notebooks are designed for self-paced learning. They contain all the code and can be used to work through the tutorial at your own pace.
+
+### How to Use These Tutorials
+1. Click the "Open in Colab" button for the notebook version you want to use
+2. Make a copy of the notebook to your own Google Drive to save your work
+3. Work through the tutorials in order (01 → 02 → Challenges)
 
 ## Previous Guided Tutorials
 

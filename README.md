@@ -39,6 +39,7 @@ No installation required! All tutorials are designed to run directly in Google C
 
 | Date | Event | Location/Event |
 |------|--------|-----------|
+| April 2025 | Virtual Tutorial Lecture @ MLXN|  Virtual, 24h Event |
 | February 2025 | Virtual Tutorial Lecture @ UIC| Chicago, IL |
 | April 2024 | Spring MRS 2024 Tutorial | Seattle, WA |
 
